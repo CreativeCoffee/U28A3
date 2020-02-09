@@ -131,8 +131,8 @@ nav a:hover {
 .aboutContent {
     padding: 40px 120px;
 }
-.aboutContent img {
-    margin: 16px 0;
+.aboutContent img, .aboutContent p {
+    margin: 30px 0;
 }
 .aboutContent::after {
     content: "";
@@ -140,7 +140,55 @@ nav a:hover {
     clear: both;
 }
 
+#showcase section {
+    padding: 20px 60px 0 60px;
+}
 
+#showcase p {
+    margin-top: 10px;
+}
 
+.subheading {
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #f45d48;
+    width: 250px;
+    padding-bottom: 15px   
+}
 
+.container {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    padding: 20px 0 40px 0;
+}
 
+.slideshow img {
+    filter: brightness(50%);
+}
+.slideshow {
+    display: flex;
+    width: 100%;
+}
+
+#previousButton, #nextButton {
+    position: absolute;
+    top: 45%;
+    z-index: 10; 
+    color: #f3f3f3;
+    font-size: 60px;
+    cursor: pointer;   
+   
+}
+
+#nextButton:hover, #previousButton:hover {
+    color: #009ffd
+}
+
+#previousButton {
+    left: 5%;
+}
+
+#nextButton {
+    right: 5%;
+}
