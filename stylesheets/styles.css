@@ -99,7 +99,8 @@ nav a:hover {
     border-radius: 30px;
     text-decoration: none;
     color: #f45d48;
-    margin: 0 280px
+    margin: 0 280px;
+    cursor: pointer;
 }
 
 .mainCTA:hover {
@@ -140,7 +141,7 @@ nav a:hover {
     clear: both;
 }
 
-#showcase section {
+.wrapper section {
     padding: 20px 60px 0 60px;
 }
 
@@ -191,4 +192,43 @@ nav a:hover {
 
 #nextButton {
     right: 5%;
+}
+
+#formHeading {
+    width: 400px !important;
+}
+
+input, textarea {
+    width: 900px;
+    display: block;
+    border: 5px #333 solid;
+    border-radius: 5px;
+    margin: 40px 300px;
+    font-size: 25px;
+}
+
+
+#fullName, #email {
+    height: 60px;
+    padding: 30px;
+    
+}
+
+#message {
+    height: 200px;
+    padding: 20px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+}
+
+#submitButton {
+ width: 150px;
+ height: 60px;
+ margin: 30px auto !important;
+ padding: 0px !important;
+ font-size: 18px
 }
