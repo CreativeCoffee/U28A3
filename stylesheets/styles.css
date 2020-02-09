@@ -53,3 +53,54 @@ nav a:hover {
     color: #009ffd;
 }
 
+#hompageSupportingImg {
+    background: url("../images/indexHeadshot.jpg") no-repeat;
+    width: 500px;
+    height: 450px;
+    float: left;
+    margin: 50px 0 50px 100px;
+    border-radius: 10px
+}
+
+.contentBlock {
+    border: 1px solid #333;
+    box-shadow: 0px 3px 7px 0px rgba(51, 51, 51, 0.5);
+    border-radius: 10px; 
+} 
+
+#welcomeBox {
+    float: right;
+    width: 700px;
+    height: 300px;
+    margin: 80px 100px 0px 0;
+    padding: 25px;
+}
+
+#welcomeBox h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 30px 0; 
+}
+
+#welcomeMSG {
+    padding: 0 50px;
+    font-size: 18px;
+}
+
+.mainCTA {
+    width: 200px;
+    height: 80px;
+    border: 3px solid #f45d48;
+    padding: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #f45d48;
+    margin: 0 280px
+}
+
+.mainCTA:hover {
+    background: #f45d48;
+    font-weight: bold;
+    color: #f3f3f3;
+}
+
