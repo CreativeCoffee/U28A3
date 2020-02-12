@@ -39,6 +39,13 @@ header {
     color: #009ffd
 }
 
+#logo {
+	width: 600px;
+	height: 250px;
+	margin-left: 600px;
+	margin-bottom: 50px;
+}
+
 nav {
     float: right;
     font-size: 22px;
@@ -75,7 +82,7 @@ nav a:hover {
 #welcomeBox {
     float: right;
     width: 700px;
-    height: 300px;
+    height: 320px;
     margin: 80px 100px 0px 0;
     padding: 25px;
 }
@@ -89,6 +96,7 @@ nav a:hover {
 #welcomeMSG {
     padding: 0 50px;
     font-size: 18px;
+	padding-bottom: 20px;
 }
 
 .mainCTA {
@@ -99,8 +107,9 @@ nav a:hover {
     border-radius: 30px;
     text-decoration: none;
     color: #f45d48;
-    margin: 0 280px;
     cursor: pointer;
+	margin-left: 250px !important;
+	
 }
 
 .mainCTA:hover {
